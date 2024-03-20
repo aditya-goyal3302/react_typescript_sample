@@ -5,6 +5,7 @@ import { Greet } from './components/Greet';
 import Status from './components/Status';
 import Heading from './components/Heading';
 import Oscar from './components/Oscar';
+import ButtonComponent from './components/Button';
 
 function App() {
   // const person_name = [{
@@ -29,6 +30,7 @@ function App() {
         // messageCount={10}
         isLoggedin={false}
       />
+      <ButtonComponent handleClick={(event)=>{console.log("ughydfjgsd",event); }} />
       {/* <Person names={person_name}/> */}
     </div>
   );
